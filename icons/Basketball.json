@@ -1,0 +1,40 @@
+{
+	"Mode": "Basketball",
+	"Options": {
+		"WinCount": "3"
+	},
+	"Teams": {
+		"Red": {
+			"Players": [
+				{
+					"Controls": "Player"
+				},
+				{
+					"Controls": "Player"
+				}
+			],
+			"Mirrored": 0
+		},
+		"Blue": {
+			"Players": [
+				{
+					"Controls": "Player"
+				},
+				{
+					"Controls": "Player"
+				}
+			],
+			"Mirrored": 1
+		}
+	},
+	"Controls1": {
+		"87": "Red",
+		"38": "Blue"
+	},
+	"Controls": {
+		"81": "0",
+		"82": "1",
+		"38": "2",
+		"79": "3"
+	}
+}
