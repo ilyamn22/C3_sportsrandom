@@ -1,0 +1,428 @@
+{
+	"CountPlayers": {
+		"2x2": {
+			"Controls": {
+				"81": "0",
+				"82": "1",
+				"38": "2",
+				"79": "3"
+			},
+			"Teams": {
+				"Left": {
+					"Players": [
+						{
+							"Controls": "Player"
+						},
+						{
+							"Controls": "Player"
+						}
+					],
+					"Mirrored": 0
+				},
+				"Right": {
+					"Players": [
+						{
+							"Controls": "Player"
+						},
+						{
+							"Controls": "Player"
+						}
+					],
+					"Mirrored": 1
+				}
+			}
+		},
+		"1x1": {
+			"Controls": {
+				"87": "Left",
+				"38": "Right"
+			},
+			"Teams": {
+				"Left": {
+					"Players": [
+						{
+							"Controls": "Player"
+						},
+						{
+							"Controls": "Player"
+						}
+					],
+					"Mirrored": 0
+				},
+				"Right": {
+					"Players": [
+						{
+							"Controls": "Player"
+						},
+						{
+							"Controls": "Player"
+						}
+					],
+					"Mirrored": 1
+				}
+			}
+		},
+		"2xB": {
+			"Controls": {
+				"87": "0",
+				"38": "1"
+			},
+			"Teams": {
+				"Left": {
+					"Players": [
+						{
+							"Controls": "Player"
+						},
+						{
+							"Controls": "Player"
+						}
+					],
+					"Mirrored": 0
+				},
+				"Right": {
+					"Players": [
+						{
+							"Controls": "AI"
+						},
+						{
+							"Controls": "AI"
+						}
+					],
+					"Mirrored": 1
+				}
+			}
+		},
+		"1xB": {
+			"Controls": {
+				"87": "Left"
+			},
+			"Teams": {
+				"Left": {
+					"Players": [
+						{
+							"Controls": "Player"
+						},
+						{
+							"Controls": "Player"
+						}
+					],
+					"Mirrored": 0
+				},
+				"Right": {
+					"Players": [
+						{
+							"Controls": "AI"
+						},
+						{
+							"Controls": "AI"
+						}
+					],
+					"Mirrored": 1
+				}
+			}
+		}
+	},
+	"Random": {
+		"CountModificators": [
+			[10, 0],[40, 1],[32, 2],[9, 3],[4, 4],[1.5, 5],[0.5, 10]
+		]
+	},
+	"Default": {
+		"Options": {
+			"WinCount": "5",
+			"AI": 3,
+			"Status": "Start"
+		},
+		"Modificators": {
+			"Random": true,
+			"List": [],
+			"ListRandom": []
+		},
+		"Map": {
+			"Random": true,
+			"ID": "CityNight",
+			"List": []
+		},
+		"Skin": {
+			"Left": {
+				"Random": true,
+				"ID": "Smile",
+				"List": []
+			},
+			"Right": {
+				"Random": true,
+				"ID": "Smile",
+				"List": []
+			}
+		}
+	},
+	"ModificatorsTypes": {
+		"All": {
+			"ru": "Общие",
+			"en": "All"
+		},
+		"Ball": {
+			"ru": "Мяч",
+			"en": "Ball"
+		}
+	},
+	"Modificators": [
+		{
+			"ID": "Moon",
+			"Type": "All",
+			"Modes": "All",
+			
+			"Name": {
+				"ru": "Лунная гравитация",
+				"en": "Moon gravity"
+			}
+		},
+		{
+			"ID": "BouncyPlayers",
+			"Type": "All",
+			"Modes": "All",
+			
+			"Name": {
+				"ru": "Отскакивающие игроки",
+				"en": "Bouncy players"
+			}
+		},
+		{
+			"ID": "SuperJump",
+			"Type": "All",
+			"Modes": "All",
+			
+			"Name": {
+				"ru": "Прыгуны",
+				"en": "Jumpers"
+			}
+		},
+		{
+			"ID": "LongArms",
+			"Type": "All",
+			"Modes": "All",
+			
+			"Name": {
+				"ru": "Длинные руки",
+				"en": "Long arms"
+			}
+		},
+		{
+			"ID": "HeavyBall",
+			"Type": "Ball",
+			"Modes": "All",
+			
+			"Name": {
+				"ru": "Стальной мяч",
+				"en": "Steel ball"
+			}
+		},
+		{
+			"ID": "BigHeads",
+			"Type": "All",
+			"Modes": "All",
+			"Incompatible": {"SmallHeads": 1},
+			
+			"Name": {
+				"ru": "Большие головы",
+				"en": "Big heads"
+			}
+		},
+		{
+			"ID": "SmallHeads",
+			"Type": "All",
+			"Modes": "All",
+			"Incompatible": {"BigHeads": 1},
+			
+			"Name": {
+				"ru": "Маленькие головы",
+				"en": "Small heads"
+			}
+		}
+	],
+	"Maps": {
+		"CityNight": {
+			"Name": {
+				"ru": "Ночной город",
+				"en": "Night city"
+			},
+			"Modes": "All",
+			"Layout": "Level",
+			"Ball": {
+				"X": 640,
+				"Y": 1172
+			},
+			"Camera": {
+				"X": 640,
+				"Y": 932,
+				"Scale": 0.8
+			},
+			"Teams": {
+				"Left": {
+					"1": [
+						{"X": 300, "Y": 1100}
+					],
+					"2": [
+						{"X": 265, "Y": 1100},
+						{"X": 335, "Y": 1100}
+					]
+				},
+				"Right": {
+					"1": [
+						{"X": 900, "Y": 1100}
+					],
+					"2": [
+						{"X": 865, "Y": 1100},
+						{"X": 935, "Y": 1100}
+					]
+				}
+			}
+		},
+		"CityDay": {
+			"Name": {
+				"ru": "Дневной город",
+				"en": "Day city"
+			},
+			"Modes": "All",
+			"Layout": "Level",
+			"Ball": {
+				"X": 640,
+				"Y": 1172
+			},
+			"Camera": {
+				"X": 640,
+				"Y": 932,
+				"Scale": 0.8
+			},
+			"Teams": {
+				"Left": {
+					"1": [
+						{"X": 300, "Y": 1100}
+					],
+					"2": [
+						{"X": 265, "Y": 1100},
+						{"X": 335, "Y": 1100}
+					]
+				},
+				"Right": {
+					"1": [
+						{"X": 900, "Y": 1100}
+					],
+					"2": [
+						{"X": 865, "Y": 1100},
+						{"X": 935, "Y": 1100}
+					]
+				}
+			}
+		}
+	},
+	"Skins": {
+		"Smile": {
+			"Name": {
+				"ru": "Улыбка",
+				"en": "Smile"
+			},
+			"Data": {
+				"Torso": "Default",
+				"Hand": "Default"
+			},
+			"Unlocked": true,
+			"Shop": {
+				"Type": "Coins",
+				"Price": 100,
+				"AD": {
+					"Enabled": false,
+					"Count": 2
+				}
+			}
+		},
+		"Cool": {
+			"Name": {
+				"ru": "Крутой",
+				"en": "Cool"
+			},
+			"Data": {
+				"Torso": "Default",
+				"Hand": "Default"
+			},
+			"Unlocked": true,
+			"Shop": {
+				"Type": "Coins",
+				"Price": 100,
+				"AD": {
+					"Enabled": false,
+					"Count": 2
+				}
+			}
+		},
+		"Sad": {
+			"Name": {
+				"ru": "Грустный",
+				"en": "Sad"
+			},
+			"Data": {
+				"Torso": "Default",
+				"Hand": "Default"
+			},
+			"Unlocked": true,
+			"Shop": {
+				"Type": "Coins",
+				"Price": 100,
+				"AD": {
+					"Enabled": false,
+					"Count": 2
+				}
+			}
+		},
+		"Clown": {
+			"Name": {
+				"ru": "Клоун",
+				"en": "Clown"
+			},
+			"Data": {
+				"Torso": "Default",
+				"Hand": "Default"
+			},
+			"Unlocked": true,
+			"Shop": {
+				"Type": "Coins",
+				"Price": 100,
+				"AD": {
+					"Enabled": false,
+					"Count": 2
+				}
+			}
+		}
+	},
+	"Colors": {
+		"DifficultyBot": {
+			"Stages": 3,
+			"Data": [
+				"43.175.43",
+				"41.182.246",
+				"255.143.0",
+				"221.25.29"
+			], 
+			"Name": {
+				"ru": [
+					"Легко",
+					"Средне",
+					"Сложно",
+					"ХАРДКОР"
+				],
+				"en": [
+					"Easy",
+					"Normal",
+					"Hard",
+					"HARDCORE"
+				]
+			},
+			"Values": [
+				0.8,
+				1.6,
+				3,
+				7
+			]
+		}
+	}
+}
